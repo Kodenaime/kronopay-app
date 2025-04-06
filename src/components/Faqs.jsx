@@ -26,7 +26,10 @@ const Faqs = () => {
   return (
     <section>
       <div className="container faqs">
-        <SectionTop head="Faq" title="Frequently Asked Questions" />
+        <SectionTop 
+        head="Faq" 
+        title="Frequently Asked Questions" 
+        />
         <div className="faq-cards">
           {
             responses.map(({id, question, answer}) => {
