@@ -13,7 +13,7 @@ import Terms from './pages/Terms'
 
 
 const App = () => {
-  return (
+  return ( 
     <div>
       <Navbar />
         <Routes>

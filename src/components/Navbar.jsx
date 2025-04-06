@@ -5,7 +5,8 @@ import logo from '../assets/logo.png'
 
 const Navbar = () => {
   return (
-    <nav className='container'>
+    <nav>
+      <div className="container nav-container">
       <div className="logo">
         <img src={logo} alt="" />
       </div>
@@ -19,6 +20,7 @@ const Navbar = () => {
         <a href="#" className="btn">Get the App!</a>
 
       </ul>
+      </div>
 
     </nav>
   )
