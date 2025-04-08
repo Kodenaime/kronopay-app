@@ -6,7 +6,6 @@ import { FaRegThumbsUp } from "react-icons/fa6";
 import { LiaDollarSignSolid } from "react-icons/lia";
 import { BsHeadset } from "react-icons/bs";
 import { FiShield } from "react-icons/fi";
-import { i } from 'motion/react-client';
 
 
 const benefitsData = [
@@ -30,11 +29,11 @@ const benefitsData = [
     topic: "Easy to Use",
     body: "Intuitive design makes managing your money effortless."
   },
-]
+];
 
 const Benefits = () => {
   return (
-    <section>
+    <section className='wrapper'>
       <div className="container benefits-container">
         <div className="benefits-img">
           <img src={benss} alt="" />
