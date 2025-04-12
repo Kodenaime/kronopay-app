@@ -5,6 +5,7 @@ import Testimonials from '../components/Testimonials.jsx'
 import Test from '../components/Test.jsx'
 import Benefits from '../components/Benefits.jsx'
 import Cases from '../components/Cases.jsx'
+import Features from '../components/Features.jsx'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       
       {/* <Test /> */}
       <Cases />
+      <Features />
       <Benefits />
       <Testimonials />
       <Faqs />

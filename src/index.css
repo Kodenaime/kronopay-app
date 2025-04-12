@@ -168,14 +168,14 @@ nav .nav-menu {
 }
 
 .cases .cases-top .cases1 {
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   padding: 1rem;
   color: var(--black-color);
   height: fit-content;
 }
 
 .cases .cases-top .bg-gray {
-  background: var(--text-color);
+  background: var(--primary-light);
 }
 
 .cases .cases-top .bg-blue {
@@ -194,11 +194,11 @@ nav .nav-menu {
 }
 
 .cases .cases-down .cases2 {
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   padding: 1rem;
   color: var(--black-color);
   height: fit-content;
-  background: var(--text-color);  
+  background: var(--primary-light);  
 }
 
 .cases .cases-down .cases2 img {
